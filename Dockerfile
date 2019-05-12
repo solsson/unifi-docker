@@ -1,5 +1,5 @@
 ARG BASEIMG=openjdk
-ARG BASEVERS=8-jre-slim
+ARG BASEVERS=8-jre-slim@sha256:7c1b4041a0cdfe3ca48b22b3cef14fd83b2212eb5cb1718d5539ab6fcc61a3ac
 FROM ${BASEIMG}:${BASEVERS}
 
 ARG ARCH=amd64
